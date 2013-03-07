@@ -4,6 +4,7 @@
 #from distutils.core import setup
 #from setuptools import setup
 
+# Distribute を使う (buchoを参考に)
 try:
     #import setuptools
     from setuptools import setup
@@ -120,12 +121,14 @@ setup(name='SetupPyExersise',
       # print sys.exec_prefix
       # print sys.prefix
 
-    data_files=[('exersise', ['src/exersise/otherdata/hellolist.txt', 'src/exersise/otherdata/goodbylist/goodbylist.txt'])],
+    #data_files=[('exersise', ['src/exersise/otherdata/hellolist.txt', 'src/exersise/otherdata/goodbylist/goodbylist.txt'])],
+    data_files=[('exersise/etc', ['src/exersise/otherdata/hellolist.txt', 'src/exersise/otherdata/goodbylist/goodbylist.txt'])],
 
 
       #scriptsディレクトリのファイルが /usr/local/bin へ配置される(ファイルがコピーされる)
     scripts=['scripts/sayhello', 'scripts/sayecho', 'scripts/sayhoge', 'scripts/sayhellolist'],
 
+      # テストのパッケージを指定する
     test_suite="exersise.tests",
 
 

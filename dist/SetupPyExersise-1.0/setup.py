@@ -126,6 +126,7 @@ setup(name='SetupPyExersise',
       #scriptsディレクトリのファイルが /usr/local/bin へ配置される(ファイルがコピーされる)
     scripts=['scripts/sayhello', 'scripts/sayecho', 'scripts/sayhoge', 'scripts/sayhellolist'],
 
+      # テストのパッケージを指定する
     test_suite="exersise.tests",
 
 

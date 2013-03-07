@@ -20,4 +20,4 @@ src/exersise/moduledata/goodbylist/goodbylist.txt
 src/exersise/otherdata/hellolist.txt
 src/exersise/otherdata/goodbylist/goodbylist.txt
 src/exersise/tests/__init__.py
-src/exersise/tests/randtest.py
+src/exersise/tests/echo_test.py
