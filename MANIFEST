@@ -1,0 +1,16 @@
+README.txt
+setup.py
+scripts/sayecho
+scripts/sayhello
+scripts/sayhellolist
+scripts/sayhoge
+src/exersise/__init__.py
+src/exersise/echo.py
+src/exersise/hoge/__init__.py
+src/exersise/hoge/echo.py
+src/moduledata/hellolist.txt
+src/moduledata/goodbylist/goodbylist.txt
+src/moduledata/trash/003.txt
+src/moduledata/trash/004.txt
+src/otherdata/hellolist.txt
+src/otherdata/goodbylist/goodbylist.txt
