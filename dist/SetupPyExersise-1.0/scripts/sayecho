@@ -1,0 +1,5 @@
+#!/bin/env python
+
+from exersise import echo
+
+print echo.echo("hello")

@@ -1,0 +1,6 @@
+include *.txt
+recursive-include src/exersise/moduledata *.txt
+recursive-include src/exersise/otherdata *.txt
+prune src/exersise/otherdata/trash
+prune src/exersise/moduledata/trash
+recursive-prune src *.pyc
